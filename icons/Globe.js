@@ -1,0 +1,27 @@
+import React from 'react';
+
+const Globe = () => {
+  return (
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M11 20.1667C16.0626 20.1667 20.1666 16.0626 20.1666 11C20.1666 5.9374 16.0626 1.83334 11 1.83334C5.93737 1.83334 1.83331 5.9374 1.83331 11C1.83331 16.0626 5.93737 20.1667 11 20.1667Z"
+        stroke="#BCBCBC"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M7.33329 11C7.33329 16.0626 8.97491 20.1667 11 20.1667C13.025 20.1667 14.6666 16.0626 14.6666 11C14.6666 5.9374 13.025 1.83334 11 1.83334C8.97491 1.83334 7.33329 5.9374 7.33329 11Z"
+        stroke="#BCBCBC"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path d="M1.83331 11H20.1666" stroke="#BCBCBC" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+};
+
+Globe.displayName = 'Globe';
+
+export default Globe;

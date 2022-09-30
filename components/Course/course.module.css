@@ -1,0 +1,60 @@
+.ul > ul li:before {
+  content: "✓";
+  margin-right: 6px;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: transparent;
+}
+.ant-select-arrow {
+  color: white;
+  font-size: 18px;
+}
+.containers {
+  position: relative;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.containers:before,
+.containers:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 85px;
+  border: 11px solid transparent;
+  border-bottom-color: #ffffff1a;
+}
+
+.containers:after {
+  left: 85px;
+  border: 10px solid transparent;
+  border-bottom-color: #ffffff1a;
+}
+.search {
+  position: relative;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.search:before,
+.search:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 20px;
+  border: 11px solid transparent;
+  border-bottom-color: #ffffff1a;
+}
+
+.search:after {
+  left: 20px;
+  border: 10px solid transparent;
+  border-bottom-color: #ffffff1a;
+}
+.icon {
+  font-size: 26px !important;
+}
